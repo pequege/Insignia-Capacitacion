@@ -1,0 +1,23 @@
+html
+  historia
+  protocolo : post & get
+  estructura basica
+  problema de html: xlash
+  boiler plate
+  erick meyer
+  plug-ins: 
+    html.js (buscas)
+    selective.js
+    modernizr.js
+
+off-topic: 
+  plug-in que mide la velocidad de los elementos de una pagina web
+  convenciones para html y css(no repetir ID y cosas asi)
+
+CSS 
+  mas historia
+
+
+tarea:
+subir html a github
+subir a dropbox y compartir el link
