@@ -21,3 +21,38 @@ CSS
 tarea:
 subir html a github
 subir a dropbox y compartir el link
+
+----------------------------
+box model
+float ---> clearfix hack(boilerplate lo tiene!)
+elementos con los mismos atributos comparten css
+ej: 	.left{}
+	.right{}
+	.two-col{}
+
+si se envuelve todo con 'section' se usa 'role'
+/section role="main"{}/
+
+modularidad:
+
+
+<div class="filter list">
+    <ul>
+        <li>
+            <a href=""></a>
+        </li>
+        <li>
+        </li>
+    </ul>
+</div>
+
+.list{...}
+        .list li{...}
+                .list li a[....]
+        .list ul{...}
+
+
+
+
+
+

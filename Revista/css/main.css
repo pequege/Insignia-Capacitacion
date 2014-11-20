@@ -9,7 +9,7 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+
 html,
 button,
 input,
@@ -303,93 +303,46 @@ textarea {
     }
 }
 
-
-*{
-    margin: 0;
-    font-family: 'Indie Flower', cursive;
+.flex{
+    display: flex;
 }
 
-body{
-    background: #282828;
+.right{
+    float: right;
 }
 
-header{
-    background: url("../img/Intro.jpg");
-    background-size: 100%;
-    margin: 0 auto;
-    width: 700px;
-    height: 365px;
-    color: white;
-}
-
-h1{
-    font-size: 35px;
-    margin: 0;
-    position: absolute;
-    top: 230px;
-    left: auto;
-}
-
-h2{
-    font-size: 25px;
-    margin: 0;
-    position: absolute;
-    top: 280px;
-    left: auto;
-    padding-left: 230px;
-}
-
-p{
-    font-size: 30px;
-    margin: 0;
-    padding: 0 10px;
-}
-
-article{
-    line-height: 50px;
-    margin: 0 auto;
-    width: 700px;
-}
-
-.page-1{
-    background-color: #aba170;
-    color: #252525;
-}
-
-.page-2{
-    background-color: #503f21;
-    color: #c0c79b;
-}
-
-.page-3{
-    background-color: #957e53;
-    color: #24190e;
-}
-
-.page-4{
-    background-color: #11110f;
-    color: #cabda0;
-}
-
-.page-5{
-    background-color: #020502;
-    color: #b6bc96;
-}
-
-.page-6{
-    background-color: #b9b987;
-    color: #221c11;
-}
-
-.img-1{
-    padding-left: 95px;
-    width: 500px;
-}
-
-.img-2{
+.left{
     float: left;
 }
 
-.img-3{
-    float: right;
+.aside{
+    color: white;
+    background-color: #FF9066;
+    width: 30%;
+    height: auto;
 }
+
+.article{
+    padding: 0 10px;
+}
+
+.articles{
+    background-color: #BD3400;
+    color: white;
+    width: 70%;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding: 0 5px;
+}
+
+footer{
+    color: white;
+    background-color: #402D26;
+    width: auto;
+}
+

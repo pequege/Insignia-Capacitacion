@@ -9,7 +9,7 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+
 html,
 button,
 input,
@@ -303,93 +303,114 @@ textarea {
     }
 }
 
-
-*{
-    margin: 0;
-    font-family: 'Indie Flower', cursive;
-}
-
-body{
-    background: #282828;
-}
-
-header{
-    background: url("../img/Intro.jpg");
-    background-size: 100%;
+.container{
+    width: 1024px;
+    background: #f6e7ca;
     margin: 0 auto;
-    width: 700px;
-    height: 365px;
-    color: white;
+    color: #443027;
 }
 
-h1{
-    font-size: 35px;
-    margin: 0;
-    position: absolute;
-    top: 230px;
-    left: auto;
+.navbar{
+    background-color: #cdaa70;
+    height: 70px;
+    width: 974px;
+    position: fixed;
 }
 
-h2{
-    font-size: 25px;
-    margin: 0;
-    position: absolute;
-    top: 280px;
-    left: auto;
-    padding-left: 230px;
+.pad{
+    padding: 0 24px;
 }
 
-p{
-    font-size: 30px;
-    margin: 0;
-    padding: 0 10px;
-}
-
-article{
-    line-height: 50px;
-    margin: 0 auto;
-    width: 700px;
-}
-
-.page-1{
-    background-color: #aba170;
-    color: #252525;
-}
-
-.page-2{
-    background-color: #503f21;
-    color: #c0c79b;
-}
-
-.page-3{
-    background-color: #957e53;
-    color: #24190e;
-}
-
-.page-4{
-    background-color: #11110f;
-    color: #cabda0;
-}
-
-.page-5{
-    background-color: #020502;
-    color: #b6bc96;
-}
-
-.page-6{
-    background-color: #b9b987;
-    color: #221c11;
-}
-
-.img-1{
-    padding-left: 95px;
-    width: 500px;
-}
-
-.img-2{
+.left{
     float: left;
 }
 
-.img-3{
+.right{
     float: right;
+}
+
+.home{
+    padding-top: 83px;
+}
+
+.portfolio{
+    display: flex;
+    margin: 0;
+}
+
+.wrapper{
+    color: white;
+    position: absolute;
+    top: 254px;
+    left: 304px;
+    height: 208px;
+    background: rgba(0,0,0,0.2);
+    width: 977px;
+    text-align: right;
+    margin-right: 10px;
+    }
+
+.wrapper p{
+    margin: 0 10px 0 470px;
+}
+
+.wrapper:hover{
+    background: rgba(0,0,0,0.5);
+}
+
+h1{
+    font-size: 60px;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 30;
+    margin-left: 10px;
+}
+
+h3{
+    font-size: 25;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+li{
+    margin-top: 10px;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.fx1 li:hover{
+    background-color: #a6bc67;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.quarter{
+    width: 25%;
+    float: left;
+}
+
+.half{
+    width: 50%;
+}
+
+p{
+    font-size: 20px;
+    margin-top: 0;
+}
+
+footer{
+    color: white;
+    background: #443027;
+    text-align: center;
+    height: 30px;
+    margin-bottom: 0;
 }
