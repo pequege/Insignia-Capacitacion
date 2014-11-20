@@ -321,6 +321,10 @@ textarea {
     padding: 0 24px;
 }
 
+.pad2{
+    padding: 0;
+}
+
 .left{
     float: left;
 }
@@ -335,7 +339,15 @@ textarea {
 
 .portfolio{
     display: flex;
-    margin: 0;
+}
+
+.services li{
+    width: 490px;
+    height: 210px;
+}
+
+.marg{
+    margin: 5px;
 }
 
 .wrapper{
@@ -357,6 +369,11 @@ textarea {
 .wrapper:hover{
     background: rgba(0,0,0,0.5);
 }
+
+a {
+  color:inherit;
+  text-decoration: none;
+ }
 
 h1{
     font-size: 60px;
@@ -412,5 +429,9 @@ footer{
     background: #443027;
     text-align: center;
     height: 30px;
-    margin-bottom: 0;
+    margin: 0 auto;
+}
+
+.star-serv{
+    background: #a8bb69;
 }
